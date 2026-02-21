@@ -1,0 +1,2 @@
+model,epochs,lr,patience,best_macro_f1
+resnet34_seg_full_finetune,20,0.0001,5,0.4496175420206136

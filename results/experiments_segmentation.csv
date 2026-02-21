@@ -1,0 +1,2 @@
+model_name,backbone,img_size,loss_type,epochs_trained,best_val_loss,mean_dice,mean_iou,batch_size,learning_rate,split_seed
+resnet34_segmentation,resnet34_imagenet,256,BCE+Dice,12,0.2436,0.9033,0.8253,8,0.0001,42

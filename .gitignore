@@ -14,3 +14,6 @@ data/
 
 # docs
 docs/
+
+
+src/__pycache__/

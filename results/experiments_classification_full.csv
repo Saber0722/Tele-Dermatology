@@ -1,0 +1,2 @@
+model_name,accuracy,macro_f1,weighted_f1
+resnet34_baseline,0.5850073493385596,0.4888314827106469,0.6251030210584692

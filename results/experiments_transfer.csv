@@ -1,0 +1,2 @@
+model,freeze_epochs,finetune_epochs,best_macro_f1
+resnet34_seg_transfer,5,15,0.38747362697210935
