@@ -296,6 +296,83 @@ Segmentation is strong enough to support lesion-focused cropping.
 
 ---
 
+# 🧪 Running Experiments
+
+Please download the required libraries before running any scripts.
+
+
+## 🔹 Option 1 — Run `.sh` Scripts Manually
+
+### Step 1: Make Scripts Executable
+
+From the project root:
+
+```bash
+chmod +x scripts/*.sh
+chmod +x scripts/run_full_pipeline.sh
+```
+
+---
+
+### Step 2: Run Individual Pipelines
+
+#### 🧬 Segmentation Pipeline
+
+```bash
+./scripts/run_segmentation.sh
+```
+
+#### 📷 Classification Experiments
+
+```bash
+./scripts/run_classification.sh
+```
+
+#### 🔁 Transfer Learning Experiments
+
+```bash
+./scripts/run_transfer.sh
+```
+
+#### 🚀 Full Pipeline (All Experiments)
+
+```bash
+./run_full_pipeline.sh
+```
+
+Logs will be saved automatically inside the `logs/` directory.
+
+---
+
+## 🔹 Option 2 — Use the Makefile (Recommended)
+
+For cleaner experiment management, use the Makefile.
+
+### Run Segmentation
+
+```bash
+make segmentation
+```
+
+### Run Classification
+
+```bash
+make classification
+```
+
+### Run Transfer Learning
+
+```bash
+make transfer
+```
+
+### Run Everything
+
+```bash
+make full
+```
+
+---
 
 
 ## 🚀 How to Run
@@ -369,16 +446,13 @@ Open notebooks in `notebooks/`.
 
 ## 📚 References
 
-* HAM10000 Dataset
-  [https://doi.org/10.7910/DVN/DBW86T](https://doi.org/10.7910/DVN/DBW86T)
+* [HAM10000 Dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
 
-* ISIC Archive
-  [https://isic-archive.com](https://isic-archive.com)
+* [ISIC2018 Challenge Task1 Data (Segmentation)](https://www.kaggle.com/datasets/tschandl/isic2018-challenge-task1-data-segmentation)
+  
 
 ---
 
 ## 📜 License
 
 MIT License
-
----
