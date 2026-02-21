@@ -382,22 +382,3 @@ Open notebooks in `notebooks/`.
 MIT License
 
 ---
-
-# 🔥 What This README Now Achieves
-
-* Reads like a structured research repo
-* Clearly states novelty (mask-crop approach)
-* Explains segmentation → classification pipeline
-* Shows experimental thinking
-* Ready to convert into paper sections
-
----
-
-If you want next step, we can now:
-
-1. 🔬 Convert this into a **conference-style paper draft (IEEE/Elsevier format)**
-2. 📊 Create publication-quality result tables
-3. 📈 Generate clean comparison plots
-4. 🎯 Refine contribution statement for submission
-
-Tell me which direction we take next.
